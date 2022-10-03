@@ -1,0 +1,27 @@
+﻿@page
+@model PhoneShop.Pages.Forms.CustomPhoneModel
+@{
+}
+<div class="container">
+	<h1>Select your specifications</h1>
+	<form method="post" class="mx-auto mt-5 mb-5 px-5 pt-5 rounded-5 bg-light col-4">
+		<input style="float:left" type="text" asp-for="Phone.PhoneName" placeholder="Name your phone" /> 
+		<br />
+		<br />
+		<input type="checkbox" asp-for="Phone.ProModel" placeholder="Go Pro?" />  Upgrade to Pro Model
+		<br />
+		<input type="checkbox" asp-for="Phone.MemoryUpgrade" placeholder="Memory" /> Upgrade to 1TB Memory
+		<br />
+		<input  type="checkbox" asp-for="Phone.BatteryUpgrade" placeholder="Battery" /> Upgrade to 6000mAh capacity
+		<br />
+		<input  type="checkbox" asp-for="Phone.MemoryUpgrade" placeholder="Memory" /> Upgrade to 1TB Memory
+		<br />
+		<input  type="checkbox" asp-for="Phone.HighRefresh" placeholder="Refresh Rate" /> Upgrade to 240hz refresh rate
+		<br />
+		<input  type="checkbox" asp-for="Phone.OledPanel" placeholder="Oled" /> Upgrade to 8K Oled Panel
+		<br />
+		<button class="btn btn-outline-dark mt-1 mb-3" type="submit">Confirm Selection</button>
+		<br />
+	</form>
+
+</div>

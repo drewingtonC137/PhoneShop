@@ -1,0 +1,47 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.mainText {
+    padding: 50px 20px;
+}
+.mainSubTitle{
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.smallText{
+    text-align:left;
+    color: grey;
+}
+.div100{
+    background:grey;
+    margin: 0;
+}
+
+.text100{
+    margin: 250px 0 20px 0;
+    color:white;
+}
+.div101{
+    background: white;
+    margin: 0;
+}
+.text101 {
+    margin: 10px 0 10px 0;
+    color: black;
+}
